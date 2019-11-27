@@ -15,10 +15,12 @@
 
 
         <div class="hero-body">
-            <div class="container">
+            <div class="container" style="text-align:center;">
+                <img src="https://ongehoord.info/logo.svg" width="400">
                 <header class="bd-index-header">
-                    <h1>This is the Ongehoord API. Please visit our website.</h1>
-                    <a href="https://ongehoord.info" class="button is-primary is-medium">This is our website</a>
+                    <h1 class="title"1>This is the Ongehoord API.</h1>
+                    <h2 class="subtitle"">Please visit our website.</h2>
+                    <a href="https://ongehoord.info/" class="button is-primary is-medium">This is our website</a>
                 </header>
             </div>
         </div>
