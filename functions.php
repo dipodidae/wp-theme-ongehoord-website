@@ -30,3 +30,5 @@ add_action('attachments_register', function ($attachments) {
         'filetype' => null
     ]);
 });
+
+add_theme_support( 'post-thumbnails' );
