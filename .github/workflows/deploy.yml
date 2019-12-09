@@ -20,3 +20,4 @@ jobs:
         FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
         FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
         REMOTE_DIR: /public_html/rest/wp-content/themes/wp-theme-ongehoord-website
+        ARGS: --exclude-glob=.*
