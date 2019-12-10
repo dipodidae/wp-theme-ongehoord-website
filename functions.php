@@ -29,6 +29,14 @@ add_action('attachments_register', function ($attachments) {
         'priority' => 'high',
         'filetype' => null
     ]);
+
+    $attachments->register('gallery', [
+        'fields' => [],
+        'label' => 'Gallery',
+        'post_type' => ['farm'],
+        'priority' => 'high',
+        'filetype' => null
+    ]);
 });
 
 add_theme_support( 'post-thumbnails' );
